@@ -1,0 +1,21 @@
+    .titulo {
+        color: red;
+    }
+    .fonte {
+        font-size: 4em;
+    }
+    #nascimento {
+        color: green;
+    }
+
+    input[type="text"] {
+        width: 120px;
+        height: 50px;
+        transition-duration: 1s;
+        color: red;
+    }
+
+    input[type="text"]:focus {
+        color: green;
+        font-size: 2em;
+    }

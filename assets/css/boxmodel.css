@@ -1,0 +1,16 @@
+@import 'reset.css';
+
+
+.bloco {
+    width: 50%;
+    height: 500px;
+    border: solid 0.5px #333;
+    margin: 150px auto;
+    padding: 80px;
+}
+
+.bloco > div {
+    border: inherit;
+    width: 100px;
+    height: 100px;
+}
